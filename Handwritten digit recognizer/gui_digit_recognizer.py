@@ -6,6 +6,7 @@ from PIL import ImageGrab, ImageOps
 import numpy as np
 import os
 
+
 model = load_model('mni2st.h5')
 
 def predict_digit(img):
